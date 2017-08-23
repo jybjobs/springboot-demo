@@ -1,0 +1,18 @@
+server:
+  port: 8081
+ # context-path: /index
+index:
+  hello: "Hello,springboot."
+spring:
+  profiles:
+    active: prod
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+  mvc:
+    favicon:
+      enabled: false #关闭logo
+logging:
+  file: /var/log/springboot.log
+  level: debug
