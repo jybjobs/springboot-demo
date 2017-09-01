@@ -1,5 +1,5 @@
-server:
-  port: 8081
+#server:
+#port: 8081
  # context-path: /index
 pros:
   hello: "Hello,springboot."
@@ -13,6 +13,14 @@ spring:
   mvc:
     favicon:
       enabled: false #关闭logo
+  datasource:
+    url: jdbc:mysql://192.168.70.44:3306/jpa
+    username: openbridge
+    password: Admin@123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
 logging:
   file: /var/log/springboot.log
   level: debug
