@@ -1,4 +1,4 @@
-package com.yihecloud.service;
+package com.yihecloud.entity;
 
 import java.util.List;
 
