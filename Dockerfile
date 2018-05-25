@@ -1,1 +1,1 @@
-docker.yihecloud.com/test/jdk:8
+FROM docker.yihecloud.com/test/jdk:8
