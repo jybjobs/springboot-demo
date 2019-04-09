@@ -13,22 +13,6 @@ spring:
   mvc:
     favicon:
       enabled: false #关闭logo
-  datasource:
-#    url: jdbc:mysql://192.168.70.44:3306/jpa
-#    username: openbridge
-#    password: Admin@123
-    url: jdbc:mysql://127.0.0.1:3306/jpa
-    username: root
-    password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-  redis:
-    database: 0
-    host: 127.0.0.1
-    port: 6379
-    password:
 logging:
   file: /var/log/springboot.log
   level: debug
