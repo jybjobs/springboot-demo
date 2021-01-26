@@ -1,0 +1,3 @@
+com/online/test/MySandBoxModule.class
+com/online/test/MySandBoxModule$1.class
+META-INF/services/com.alibaba.jvm.sandbox.api.Module
